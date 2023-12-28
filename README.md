@@ -1,25 +1,25 @@
 # Resume-Form
 Resume forum in HTML. Beginner's first steps
 <!DOCTYPE html>
-<html lang="az-AZ">
+<html lang="en-Us">
     <head>
         <meta charset="UTF-8">
         <title>Test</title>
     </head>
     <body>
         <h1 style="text-align:center;"><strong><em><mark><ins>E-Resume</ins></mark></em></strong></h1>
-        <!--Form kodlarını div içine CSS için yazdım-->
+        <!-- Form tags in Div-->
         <div>
             <form>
                 <fieldset>
                     <legend>Form</legend>
                     <table>
                         <tr>
-                            <td><span>Adınız:</span></td>
+                            <td><span>First Name:</span></td>
                             <td><input type="text"></td>
                         </tr>
                         <tr>
-                            <td><span>Soyadınız:</span></td>
+                            <td><span>Last Name:</span></td>
                             <td><input type="text"></td>
                         </tr>
                         <tr>
@@ -27,25 +27,25 @@ Resume forum in HTML. Beginner's first steps
                             <td><input type="email" required></td>
                         </tr>
                         <tr>
-                            <td><label for="prl"><span>Parol:</span></label></td>
+                            <td><label for="prl"><span>Password:</span></label></td>
                             <td><input type="password" id="prl" name="prl" maxlength="6"></td>
                         </tr>
                         <tr>
-                            <td><span>Sahə:</span></td>
+                            <td><span>Field:</span></td>
                             <td><label for="frontend">Frontend</label><input type="radio" id="frontend" name="jdeveloper" value="JuniorFrontend"><label for="backend">Backend</label><input type="radio" id="backend" name="jdeveloper" value="JuniorBackend"></td>
                         </tr>
                         <tr>
-                            <td><label for="level">Səviyyə:</label></td>
+                            <td><label for="level">Level:</label></td>
                             <td><select id="level" name ="skill">
                                    <option value="Junior">Junior</option>
                                    <option value="Middle">Middle</option>
                                    <option value="Senior">Senior</option></select></td>
                         </tr>
                         <tr>
-                            <td colspan="2"><textarea id="about" rows="5" cols="40" placeholder="Haqqınızda..."></textarea></td>
+                            <td colspan="2"><textarea id="about" rows="5" cols="40" placeholder="Write something about you..."></textarea></td>
                         </tr>
                         <tr>
-                            <td><label for="myfile">CV yüklə:</label></td>
+                            <td><label for="myfile">Load your CV:</label></td>
                             <td><input type="file" id="myfile" name="cvfile"></td>
                         </tr>
                         <tr>
@@ -55,7 +55,7 @@ Resume forum in HTML. Beginner's first steps
                             <td colspan="2"><input type="checkbox" id="html" name="html" value="dil1"><label for="html">HTML</label><br><input type="checkbox" id="css" name="css" value="dil2"><label for="css">CSS</label><br><input type="checkbox" id="javascript" name="javascript" value="dil3"><label for="javascript">Javascript</label><br><input type="checkbox" id="react" name="react" value="dil4"><label for="react">React</label></td>
                         </tr>
                         <tr>
-                            <td colspan="2"><input type="submit" value="Göndər"></td>
+                            <td colspan="2"><input type="submit" value="Send"></td>
                         </tr>
                     </table>
                 </fieldset>
