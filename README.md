@@ -7,7 +7,7 @@ Resume forum in HTML. Beginner's first steps
         <title>Test</title>
     </head>
     <body>
-        <h1 style="text-align:center;"><strong><em><mark><ins>Elektron Resume</ins></mark></em></strong></h1>
+        <h1 style="text-align:center;"><strong><em><mark><ins>E-Resume</ins></mark></em></strong></h1>
         <!--Form kodlarını div içine CSS için yazdım-->
         <div>
             <form>
